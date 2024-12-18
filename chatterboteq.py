@@ -6,7 +6,6 @@ responses = {
     "what is your name" : "My name is 'A' chatbot",
     "goodbye" : "it was nice meeting you ____",
     "bye" : "it was nice meeting you stranger, have a good day",
-    
 }
 while True :
     user_inp = (input("You: ")).lower()
@@ -15,7 +14,6 @@ while True :
          if confirm.strip().lower() == "yes":
              print("Chatbot: Goodbye, it was nice communicating with you")
              break
-            
         
          else:
               print("Oh, sure let's continue")
